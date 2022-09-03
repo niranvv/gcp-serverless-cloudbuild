@@ -8,6 +8,11 @@ npm install
 npm start
 ```
 
+## Enable APIs
+```
+gcloud services enable appengine.googleapis.com cloudfunctions.googleapis.com artifactregistry.googleapis.com run.googleapis.com translate.googleapis.com
+```
+
 ## App Engine Deploy
 ```
 gcloud app deploy
