@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.status(200).send('Hello, world - V1!').end();
+  res.status(200).send('Hello, world - V2!').end();
 });
 
 // Start the server
